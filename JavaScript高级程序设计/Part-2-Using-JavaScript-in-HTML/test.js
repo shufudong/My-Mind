@@ -1,10 +1,7 @@
-function Person(name,age,obj){
+function Person(name, age, obj) {
     var o = new Object();
-    o.name = name;
-    o.age = age;
-    o.job = job;
-    o.sayName = function(){
-        alert(this.name);
+    o.sayName = function () {
+        alert(name);
     };
     return o;
 }
